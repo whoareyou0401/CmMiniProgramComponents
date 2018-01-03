@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<navigator class='next' url='../searchInputDemo/searchInputDemo'>搜索框</navigator>
+<navigator class='next' url='../searchInputAndScanDemo/searchInputAndScanDemo'>扫一扫搜索框</navigator>

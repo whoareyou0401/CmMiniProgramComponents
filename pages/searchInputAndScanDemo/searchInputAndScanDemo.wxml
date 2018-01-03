@@ -1,0 +1,2 @@
+<!--pages/searchInputAndScanDemo/searchInputAndScanDemo.wxml-->
+<searchAndScan bindinputkeywords="inputKeyWords" placeHolderStr="placeHolderStr设置占位符文字" bindscan="scan" value="{{inputValue}}"></searchAndScan>

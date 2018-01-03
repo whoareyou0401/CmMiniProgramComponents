@@ -1,0 +1,71 @@
+/* components/searchInputAndScan.wxss */
+.search-view{
+  padding-left:auto;
+  padding-right:auto;
+  background-color: #f7f7fa;
+  height:87rpx;
+  margin:0;
+  padding-top: 10rpx;
+  border-bottom: 8px solid #F2F2F2;
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+.search-input{
+  height: 54rpx;
+  margin:0;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 8rpx;
+  /*margin-top: 14.5rpx;*/
+  /*margin-right: 14rpx;*/
+  background-color: white;
+}
+.search-img{
+  margin-top:15rpx;
+  height:30rpx;
+  width:30rpx;
+}
+.search-sub{
+    height:58rpx;
+    display:flex;
+    flex-direction:row;
+    background-color: white;
+    margin-top:14rpx;
+    border-radius: 16rpx;
+    width:85%;
+}
+.title-img{
+  height: 400rpx;
+  width: 100%;
+}
+.scan-contain{
+  margin-left:auto;
+  margin-right:auto;
+  width:200rpx;
+  height: 200rpx;
+  margin-top:100rpx;
+  text-align: center;
+  border-radius: 100rpx;
+  background-color: #f7f7fe;
+  line-height: 200rpx;
+}
+.search-img-view{
+    margin-left:14rpx;
+    height:58rpx;
+    width:58rpx;
+    padding-top:3rpx;
+}
+.search-contain{
+    display:flex;
+    flex-direction:row;
+    margin-left:30rpx;
+    height:58rpx;
+    line-height:58rpx;
+}
+.scan-image{ 
+    margin-top:15rpx;
+    height:54rpx;
+    width: 54rpx;
+    float:right;
+}

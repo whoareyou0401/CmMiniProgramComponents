@@ -1,0 +1,15 @@
+ <view class="search-view">
+    <view class='search-contain'>
+        <view class="search-sub">
+            <view class='search-img-view'>
+                <image src="../images/search/paths.png" mode="aspectFit" class="search-img"></image>
+            </view>
+            <view style='width:600rpx;'>
+                <input name='storename' bindinput='inputKeyWords' placeholder="{{placeHolderStr}}" value='{{value}}' type="text"  class="search-input" /> 
+            </view>
+        </view>
+        <view style="margin-left:auto;margin-right:auto;" bindtap="scan">
+            <image src="../images/search/scan.png" mode="aspectFit" class="scan-image"> </image>
+        </view>
+    </view>
+</view> 

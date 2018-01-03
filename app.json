@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "components/searchInput/searchInput",
+    "pages/searchInputDemo/searchInputDemo",
+    "components/searchInputAndScan/searchInputAndScan",
+    "pages/searchInputAndScanDemo/searchInputAndScanDemo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "CmComponents",
+    "navigationBarTextStyle":"black"
+  }
+}
