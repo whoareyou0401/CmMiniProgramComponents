@@ -1,4 +1,4 @@
 <!--pages/searchInputDemo/searchInputDemo.wxml-->
-<search bindinputkeywords="inputKeyWords" placeHolderStr="placeHolderStr设置占位符文字" ></search>
+<search top='1rpx;' bindinputkeywords="inputKeyWords" placeHolderStr="placeHolderStr设置占位符文字" ></search>
 <view class='demo-text'>你输入的内容是:{{inputValue}}</view>
 

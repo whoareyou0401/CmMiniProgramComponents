@@ -2,6 +2,10 @@
 Component({
   properties: {
     // 这里定义了innerText属性，属性值可以在组件使用时指定
+    top: {
+      type: String,
+      value: '0rpx'
+    },
     placeHolderStr: {
       type: String,
       value: '请输入关键字',

@@ -3,7 +3,7 @@
   padding-right:auto;
   background-color: #f7f7fa;
   height:87rpx;
-  margin:0;
+  /* margin:0; */
   padding-top: 10rpx;
   border-bottom: 8px solid #F2F2F2;
   position: fixed;

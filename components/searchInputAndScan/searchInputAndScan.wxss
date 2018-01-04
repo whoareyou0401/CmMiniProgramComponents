@@ -4,7 +4,6 @@
   padding-right:auto;
   background-color: #f7f7fa;
   height:87rpx;
-  margin:0;
   padding-top: 10rpx;
   border-bottom: 8px solid #F2F2F2;
   position: fixed;
@@ -17,8 +16,6 @@
   width: 100%;
   border: 1px solid white;
   border-radius: 8rpx;
-  /*margin-top: 14.5rpx;*/
-  /*margin-right: 14rpx;*/
   background-color: white;
 }
 .search-img{

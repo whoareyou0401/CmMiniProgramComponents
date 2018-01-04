@@ -1,4 +1,4 @@
- <view class="search-view">
+ <view class='search-view' style="margin-top:{{top}}">
     <view class='search-contain'>
         <view class="search-sub">
             <view class='search-img-view'>
