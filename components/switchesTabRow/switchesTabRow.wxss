@@ -1,0 +1,26 @@
+/* components/switchesTabRow/switchesTabRow.wxss */
+.swich-cell-unselect{
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px solid #f7f7fa;
+  width: 160rpx; 
+  font-size: 35rpx;
+}
+.swich-cell-select{
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px solid #f7f7fa;
+  width: 160rpx; 
+  font-size: 35rpx;
+  color: #EC693F;
+}
+.scroll{
+  position: fixed;
+  top: 0;
+}

@@ -5,7 +5,9 @@
     "components/searchInput/searchInput",
     "pages/searchInputDemo/searchInputDemo",
     "components/searchInputAndScan/searchInputAndScan",
-    "pages/searchInputAndScanDemo/searchInputAndScanDemo"
+    "pages/searchInputAndScanDemo/searchInputAndScanDemo",
+    "components/switchesTabRow/switchesTabRow",
+    "pages/swichesTabRowDemo/swichesTabRowDemo"
   ],
   "window":{
     "backgroundTextStyle":"light",

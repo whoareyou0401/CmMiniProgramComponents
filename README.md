@@ -24,3 +24,9 @@ bindinputkeywords:可以设置监听输入框输入事件
 top:可以设置搜索框整体距上边框位置
 
 value:可以设置搜索输入框的value
+
+
+switchesTabRow组件:横向多选框
+bindselected: 可以设置绑定选中的响应方法
+switches: 可以设置选择框的文本内容（eg:['选项1','选项2']）
+top: 可以设置与顶部的距离 eg:20rpx
