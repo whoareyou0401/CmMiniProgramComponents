@@ -1,0 +1,2 @@
+<!--pages/selectImagesDemo/selectImagesDemo.wxml-->
+<selectImages containerStyle="padding-bottom:0" bindselectimage="selectImage" binddeleteimage="deleteImage"></selectImages>

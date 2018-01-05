@@ -18,7 +18,7 @@ Page({
   
   onLoad: function () {
     // wx.navigateTo({
-    //   url: '../swichesTabRowDemo/swichesTabRowDemo',
+    //   url: '../selectImagesDemo/selectImagesDemo',
     // })
     if (app.globalData.userInfo) {
       this.setData({

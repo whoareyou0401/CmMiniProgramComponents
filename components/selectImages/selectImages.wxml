@@ -1,0 +1,9 @@
+<!--components/selectImages/selectImages.wxml-->
+<view class="container" style='{{containerStyle}}'>
+    <view class="image-container">
+      <view style="margin-left:20rpx;position:relative;" wx:for="{{images}}" wx:key="{{index}}"  >
+        <image src="{{item}}" class="item-image" style='{{imageStyle}}' data-imageid="{{index}}" bindtap="selectImage"></image>
+        <image wx:if='{{index!=(images.length-1)}}' src='../images/selectImage/delete.png' class='delete-img' style='{{deleteIconStyle}}' bindtap='deleteImage' data-m_index='{{index}}'></image>
+      </view>
+    </view>
+</view>

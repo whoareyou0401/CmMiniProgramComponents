@@ -2,3 +2,4 @@
 <navigator class='next' url='../searchInputDemo/searchInputDemo'>搜索框</navigator>
 <navigator class='next' url='../searchInputAndScanDemo/searchInputAndScanDemo'>扫一扫搜索框</navigator>
 <navigator class='next' url='../swichesTabRowDemo/swichesTabRowDemo'>横向选择框</navigator>
+<navigator class='next' url='../selectImagesDemo/selectImagesDemo'>多选图片(带删除功能)</navigator>

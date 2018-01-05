@@ -30,3 +30,9 @@ switchesTabRow组件:横向多选框
 bindselected: 可以设置绑定选中的响应方法
 switches: 可以设置选择框的文本内容（eg:['选项1','选项2']）
 top: 可以设置与顶部的距离 eg:20rpx
+
+selectImages组件:图片的多选与删除
+containerStyle:可以设置图片区的整个样式
+iconImage: 可以设置加号图片的默认图片
+imageStyle: 可以设置已选择图片的样式
+deleteIconStyle: 可以设置图片右上角的删除图片样式

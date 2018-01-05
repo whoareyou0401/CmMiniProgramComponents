@@ -1,0 +1,24 @@
+/* components/selectImages/selectImages.wxss */
+.container{
+  width: 600rpx;
+  margin: auto;
+  margin-top:20rpx; 
+  display: flex;
+  flex-direction: row;
+  /* padding-bottom: 100rpx; */
+}
+.image-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.item-image{
+  height: 80rpx;
+  width: 80rpx;
+}
+.delete-img{
+    width: 35rpx;
+    height: 35rpx;
+    position: absolute;
+    right: -16rpx;
+    top:-16rpx;
+}

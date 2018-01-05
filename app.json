@@ -7,7 +7,9 @@
     "components/searchInputAndScan/searchInputAndScan",
     "pages/searchInputAndScanDemo/searchInputAndScanDemo",
     "components/switchesTabRow/switchesTabRow",
-    "pages/swichesTabRowDemo/swichesTabRowDemo"
+    "pages/swichesTabRowDemo/swichesTabRowDemo",
+    "components/selectImages/selectImages",
+    "pages/selectImagesDemo/selectImagesDemo"
   ],
   "window":{
     "backgroundTextStyle":"light",
