@@ -1,1 +1,4 @@
 /* pages/selectImagesDemo/selectImagesDemo.wxss */
+.test{
+  margin-top: 100rpx;
+}

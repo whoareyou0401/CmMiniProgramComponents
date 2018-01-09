@@ -1,0 +1,57 @@
+/* components/simpleCell/simpleCell.wxss */
+.container{
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  width: 100%;
+  border-bottom: 1px solid #F2F2F2;
+}
+.icon-image{
+  height: 180rpx;
+  width: 180rpx;
+  margin-left: 30rpx;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.icon{
+  height: 180rpx;
+  width: 180rpx;
+  
+}
+.text-container{
+  display: flex;
+  flex-direction: column;
+  width: 380rpx;
+  margin-left: 30rpx;
+}
+.text-container .title{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 35rpx;
+  width:360rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  margin-top: auto;
+  margin-bottom: auto; 
+}
+.text-container .content{
+  font-size: 30rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  width:360rpx;
+}
+.next-image-container{
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30rpx;
+}
+.next-image{
+  width: 60rpx;
+  height: 60rpx;
+}

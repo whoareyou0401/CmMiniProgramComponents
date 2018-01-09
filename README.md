@@ -36,3 +36,7 @@ containerStyle:可以设置图片区的整个样式
 iconImage: 可以设置加号图片的默认图片
 imageStyle: 可以设置已选择图片的样式
 deleteIconStyle: 可以设置图片右上角的删除图片样式
+
+simpleCell组件:类似iOS的uiTableViewCell的基本布局
+
+bindPhone组件:用于输入手机号，获取并提交验证码

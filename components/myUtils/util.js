@@ -8,7 +8,19 @@ const formatTime = date => {
 
   return [year, month, day].map(formatNumber).join('/') + ' ' + [hour, minute, second].map(formatNumber).join(':')
 }
-
+function showMsg(msg, url) {
+  wx.showModal({
+    title: '提示',
+    content: msg,
+    success: function (res) {
+      if (res.confirm && url != '') {
+        wx.redirectTo({
+          url: url
+        })
+      }
+    }
+  })
+}
 const formatNumber = n => {
   n = n.toString()
   return n[1] ? n : '0' + n
@@ -85,5 +97,6 @@ function cmUploadImages(url, form_data, filePaths, successUp, failUp, i, length,
 module.exports = {
   formatTime: formatTime,
   cmUploadImages: cmUploadImages,
-  del: del
+  del: del,
+  showMsg: showMsg
 }

@@ -1,0 +1,64 @@
+/* components/bindPhone/bindPhone.wxss */
+.btn-view{
+  margin-top:240rpx;
+  width:700rpx;
+  background-color: #EC693F;
+  color: white;
+  height: 110rpx;
+  line-height: 110rpx;
+  font-family: "PingFangSC-Regular";
+  font-size: 38rpx;
+}
+.hint{
+  width:700rpx;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50rpx;
+}
+.hint .phone{
+  color:  #EC6739
+}
+.phone-container{
+  display: flex;
+  flex-direction: row;
+  width: 700rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200rpx;
+  height: 110rpx;
+  border-bottom: 1px solid #F2F2F2;
+  border-top: 1px solid #F2F2F2;
+}
+.input-container{
+  display: flex;
+  flex-direction: row;
+  width: 700rpx;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110rpx;
+  border-bottom: 1px solid #F2F2F2;
+  border-top: 1px solid #F2F2F2;
+}
+.code-btn{
+  height:110rpx;
+  line-height:110rpx;
+  font-size:30rpx;
+  width:250rpx;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  background-color: #EC693F;
+}
+.hint-img-view{
+  margin-top:auto;
+  margin-bottom:auto;
+}
+input{
+  height:110rpx;
+  line-height:110rpx;
+  margin-left:20rpx;
+}
+image{
+  height:60rpx;
+  width:60rpx;
+}

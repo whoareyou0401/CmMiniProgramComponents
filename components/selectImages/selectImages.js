@@ -47,7 +47,6 @@ Component({
         images: new_images,
         commit_images: new_images.slice(0, (new_images.length - 1))
       })
-      console.log('shjakhdjkh')
       this.triggerEvent('deleteimage', { 'images': that.data.commit_images, 'selectTarget': e.target })
     },
     selectImage: function (e) {

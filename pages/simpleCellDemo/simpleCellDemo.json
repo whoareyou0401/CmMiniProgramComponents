@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cell": "../../components/simpleCell/simpleCell",
+    "searchAndScan": "../../components/searchInputAndScan/searchInputAndScan"
+  }
+}

@@ -1,0 +1,16 @@
+<!--components/simpleCell/simpleCell.wxml-->
+ <navigator class='container' url='{{url}}' style='{{containerStyle}}'>
+    <view class='icon-image'>
+        <image src='{{icon}}' class='icon' style='iconStyle'></image>
+    </view>
+    <view class='text-container'>
+        <view class='title' style='{{titleStyle}}'>{{title}}
+        </view>
+        <view class='content' style='{{contentStyle}}'>
+          {{content}}
+        </view>
+    </view>
+    <view class='next-image-container'>
+      <image src='../images/icon/more.png' class='next-image'></image>
+    </view>
+ </navigator>

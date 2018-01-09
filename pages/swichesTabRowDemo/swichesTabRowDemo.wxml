@@ -1,1 +1,1 @@
-<switches bindselected="selected" top="70rpx" switches="{{switches}}"></switches>
+<switches bindselected="selected" top="0rpx" switches="{{switches}}"></switches>

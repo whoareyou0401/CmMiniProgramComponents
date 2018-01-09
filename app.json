@@ -9,7 +9,11 @@
     "components/switchesTabRow/switchesTabRow",
     "pages/swichesTabRowDemo/swichesTabRowDemo",
     "components/selectImages/selectImages",
-    "pages/selectImagesDemo/selectImagesDemo"
+    "pages/selectImagesDemo/selectImagesDemo",
+    "components/simpleCell/simpleCell",
+    "pages/simpleCellDemo/simpleCellDemo",
+    "components/bindPhone/bindPhone",
+    "pages/bindPhoneDemo/bindPhoneDemo"
   ],
   "window":{
     "backgroundTextStyle":"light",

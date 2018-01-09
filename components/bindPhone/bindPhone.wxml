@@ -1,0 +1,28 @@
+<form bindsubmit='submitPhoneCode'>
+  <form bindsubmit='submitPhone'>
+      <view class='phone-container'>
+        <view class='hint-img-view'>
+          <image src='../images/icon/phone.png'></image>
+        </view>
+        <view>
+          <input type='number' name="phone"  placeholder="请输入手机号"  />
+        </view>
+        <view>
+          <button  form-type='submit' class='code-btn' data-do="{{sending}}">{{send_btn_name}}</button>
+        </view>
+      </view>
+  </form>
+<view class='input-container'>
+  <view class='hint-img-view'>
+    <image src='../images/icon/pwd.png'></image>
+  </view>
+  <view>
+    <input type='number' name="code" placeholder="请输入验证码"  />
+  </view>
+  
+</view>
+<view>
+    <button form-type="submit" class="btn-view" >提交</button>
+</view>
+</form>
+

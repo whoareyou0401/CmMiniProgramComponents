@@ -1,0 +1,2 @@
+<searchAndScan bindscan="scan" bindinputkeywords="inputKeyWords"></searchAndScan>
+<cell wx:for="{{items}}" wx:key="{{index}}" containerStyle="{{index==0?'margin-top:110rpx':'margin-top:0rpx'}}" bindtap="click" title="标题{{index}}" titleStyle="color:red" content="这里是content{{index}}" data-sid="{{index}}">item</cell>
