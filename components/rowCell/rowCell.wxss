@@ -21,7 +21,7 @@
 .next-image{
   height: 50rpx;
   width: 50rpx;
-  /* margin-left: 20rpx; */
+  margin-left: 10rpx; 
   margin-top: auto;
   margin-bottom: auto;
   /* float: right;
@@ -37,7 +37,7 @@
   overflow:hidden;
   text-overflow:ellipsis;
   white-space:nowrap;
-  width: 500rpx;
+  width: 400rpx;
   height: 70rpx;
   line-height: 70rpx;
   font-size: 30rpx;
@@ -49,12 +49,13 @@
   overflow:hidden;
   text-overflow:ellipsis;
   white-space:nowrap;
-  width: 150rpx;
+  width: 250rpx;
   height: 70rpx;
   line-height: 70rpx;
-  font-size: 30rpx;
+  font-size: 27rpx;
   color:#7E7E7E;
-  text-align: center;
+  text-align: right;
   margin-top:auto;
   margin-bottom: auto;
+  padding-right: 10rpx; 
 }
