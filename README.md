@@ -1,6 +1,9 @@
 # CmMiniProgramComponents
+要求基础库版本1.7及以上
 
 index首页为大家提供了组件预览
+
+components目录下是组件源码
 pages目录下有对应组件的使用demo
 
 searchInput组件：只提供简单的搜索样式 
@@ -40,3 +43,5 @@ deleteIconStyle: 可以设置图片右上角的删除图片样式
 simpleCell组件:类似iOS的uiTableViewCell的基本布局
 
 bindPhone组件:用于输入手机号，获取并提交验证码
+
+rowCelll组件:icon title content 横向排列的组件
