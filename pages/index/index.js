@@ -15,12 +15,14 @@ Page({
       url: '../logs/logs'
     })
   },
-  
+  formSubmit:function(e){
+    console.log(e)
+  },
   onLoad: function (options) {
-    // console.log(options)
     // wx.navigateTo({
-    //   url: '../bindPhoneDemo/bindPhoneDemo',
+    //   url: '../rowCellDemo/rowCellDemo',
     // })
+    
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

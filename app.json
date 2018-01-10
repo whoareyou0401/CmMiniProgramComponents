@@ -13,12 +13,14 @@
     "components/simpleCell/simpleCell",
     "pages/simpleCellDemo/simpleCellDemo",
     "components/bindPhone/bindPhone",
-    "pages/bindPhoneDemo/bindPhoneDemo"
+    "pages/bindPhoneDemo/bindPhoneDemo",
+    "components/rowCell/rowCell",
+    "pages/rowCellDemo/rowCellDemo"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#EC693F",
     "navigationBarTitleText": "CmComponents",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   }
 }

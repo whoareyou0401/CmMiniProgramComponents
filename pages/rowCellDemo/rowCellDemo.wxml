@@ -1,0 +1,5 @@
+<!--pages/rowCellDemo/rowCellDemo.wxml-->
+<view style='background-color:#F6F6F6;height:{{w_height}}px;'>
+  <rowcell wx:for="{{items}}" wx:key="{{index}}" src="{{item.image}}" title="{{item.title}}" content="{{item.content}}"></rowcell>
+  <rowcell src="../images/icon/service.png" title="联系客服" containorStyle="margin-top:20rpx;" bindtap="phone"></rowcell>
+</view>

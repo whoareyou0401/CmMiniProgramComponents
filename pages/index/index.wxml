@@ -4,4 +4,5 @@
 <navigator class='next' url='../swichesTabRowDemo/swichesTabRowDemo'>横向选择框</navigator>
 <navigator class='next' url='../selectImagesDemo/selectImagesDemo'>多选图片(带删除功能)</navigator>
 <navigator class='next' url='../simpleCellDemo/simpleCellDemo'>类似iOS的tableViewCell样式</navigator>
+<navigator class='next' url='../rowCellDemo/rowCellDemo'>横向排列的cell</navigator>
 <navigator class='next' url='../bindPhoneDemo/bindPhoneDemo'>输入手机号获取验证码</navigator>

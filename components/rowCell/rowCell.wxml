@@ -1,0 +1,13 @@
+<!--components/rowCell/rowCell.wxml-->
+<navigator class='containor' style='{{containorStyle}}' url='{{url}}' >
+  <view class='icon'>
+    <image src='{{src}}' ></image>
+  </view>
+  <view class='title'>{{title}}
+  </view>
+  <view class='content'>{{content}}
+  </view>
+  <view class='next-image'>
+      <image src='../images/icon/more.png'></image>
+    </view>
+</navigator>

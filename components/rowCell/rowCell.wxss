@@ -1,0 +1,60 @@
+/* components/rowCell/rowCell.wxss */
+.containor{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90rpx;
+  border-bottom: 1px solid #F2F2F2;
+  background-color:white;
+}
+.icon{
+  height: 45rpx;
+  width: 45rpx;
+  margin-left: 20rpx;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.icon image{
+  height: 45rpx;
+  width: 45rpx;
+}
+.next-image{
+  height: 50rpx;
+  width: 50rpx;
+  /* margin-left: 20rpx; */
+  margin-top: auto;
+  margin-bottom: auto;
+  /* float: right;
+  margin-right: 20rpx; */
+}
+.next-image image{
+  height: 50rpx;
+  width: 50rpx;
+  float: right;
+  margin-right: 20rpx;
+}
+.title{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  width: 500rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 30rpx;
+  margin-left: 10rpx;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+.content{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  width: 150rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 30rpx;
+  color:#7E7E7E;
+  text-align: center;
+  margin-top:auto;
+  margin-bottom: auto;
+}
