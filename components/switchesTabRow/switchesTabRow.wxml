@@ -1,7 +1,7 @@
 <!--components/swichesTabRow/swichesTabRow.wxml-->
  <scroll-view class='scroll' scroll-x="true" style='top:{{top}}'>   
-     <view style='display:flex;width:{{switches.length * 160}}rpx;'>
-      <view class='{{item.select?"swich-cell-select":"swich-cell-unselect"}}' wx:for="{{switches}}" wx:key='{{index}}' data-select_id='{{index}}' bindtap='select'>{{item.name}}</view>
+     <view style='display:flex;width:{{switches.length * cellWidth}}rpx;'>
+      <view class='{{item.select?"swich-cell-select":"swich-cell-unselect"}}' wx:for="{{switches}}" wx:key='{{index}}' data-select_id='{{index}}' bindtap='select'  style='width:{{cellWidth}}rpx'>{{item.name}}</view>
      </view> 
 </scroll-view>  
    
