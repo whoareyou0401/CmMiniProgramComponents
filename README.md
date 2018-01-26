@@ -44,5 +44,6 @@ simpleCell组件:类似iOS的uiTableViewCell的基本布局
 
 bindPhone组件:用于输入手机号，获取并提交验证码
 
-rowCelll组件:icon title content 横向排列的组件
+rowCelll组件:icon title content 横向排列的组件  
+
 ![fuck](https://github.com/whoareyou0401/CmMiniProgramComponents/raw/master/components/images/icon/map.png)
