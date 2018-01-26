@@ -1,0 +1,10 @@
+<!--components/cmToast/cmToast.wxml-->
+<view class='body'>
+  <view class='containor'>
+    <view class='hint-containor'>
+      <view class='icon-view'><icon type="warn" size="20" color='#BFBFBF'/></view>
+      <label>{{title}}</label>
+    </view>
+    <button bindtap='confirm'>{{confirmText}}</button>
+  </view>
+</view>

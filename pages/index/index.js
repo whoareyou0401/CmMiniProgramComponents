@@ -22,7 +22,30 @@ Page({
     // wx.navigateTo({
     //   url: '../rowCellDemo/rowCellDemo',
     // })
-    
+    // wx.connectSocket({
+    //   url: 'wss://sharemsg.cn:12348/wss',
+    //   data: {
+    //     x: 'sdada',
+    //     y: 'dsad'
+    //   },
+    //   header: {
+    //     'content-type': 'application/json',
+    //     'uid': wx.getStorageSync('token')
+    //   },
+
+    // })
+    // wx.onSocketOpen(function (res) {
+    //   console.log('WebSocket连接已打开！', res)
+    //   wx.sendSocketMessage({
+    //     data: 'jkhaskd'
+    //   })
+    // })
+    // wx.onSocketError(function (res) {
+    //   console.log('WebSocket连接打开失败，请检查！', res)
+    // })
+    // wx.onSocketMessage(function (res) {
+    //   console.log(res)
+    // })
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

@@ -1,5 +1,5 @@
 # CmMiniProgramComponents
-要求基础库版本1.7及以上
+要求基础库版本1.9.1及以上
 
 index首页为大家提供了组件预览
 

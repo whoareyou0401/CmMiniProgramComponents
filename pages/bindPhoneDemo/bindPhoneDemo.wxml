@@ -1,2 +1,2 @@
 <!--pages/bindPhoneDemo/bindPhoneDemo.wxml-->
-<bindPhone sendphonecode="commit" bindinputphone="inputPhone" bindinputcode="inputCode" bindsendcode="sendCode"></bindPhone>
+<bindPhone bindsendphonecode="commit" bindsendcode="sendCode"></bindPhone>

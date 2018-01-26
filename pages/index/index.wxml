@@ -6,3 +6,4 @@
 <navigator class='next' url='../simpleCellDemo/simpleCellDemo'>类似iOS的tableViewCell样式</navigator>
 <navigator class='next' url='../rowCellDemo/rowCellDemo'>横向排列的cell</navigator>
 <navigator class='next' url='../bindPhoneDemo/bindPhoneDemo'>输入手机号获取验证码</navigator>
+<navigator class='next' url='../cmToastDemo/cmToastDemo'>单按钮提示框</navigator>

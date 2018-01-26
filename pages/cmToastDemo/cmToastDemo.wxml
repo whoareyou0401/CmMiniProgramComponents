@@ -1,0 +1,3 @@
+<!--pages/cmToastDemo/cmToastDemo.wxml-->
+<button bindtap='click'>显示提示框</button>
+<toast wx:if="{{is_show}}" bindconfirm="confirm" confirmText="{{confirmText}}" title="{{title}}"></toast>

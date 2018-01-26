@@ -1,0 +1,8 @@
+/* pages/cmToastDemo/cmToastDemo.wxss */
+button{
+  width: 600rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  margin-left: auto;
+  margin-right: auto;
+}

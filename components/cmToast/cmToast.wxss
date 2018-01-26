@@ -1,0 +1,49 @@
+/* components/cmToast/cmToast.wxss */
+.body{
+  background-color:rgba(15, 15, 26, 0.7); 
+  height: 100%;
+  width: 100%;
+  position: fixed;  
+  z-index: 999; 
+  top: 0;
+}
+.containor{
+  background-color: white;
+  color: black;
+  width: 80%;
+  height: 300rpx;
+  margin: 350rpx auto auto auto;
+  border-radius: 15rpx;
+  display: flex;
+  flex-direction: column;
+}
+button{
+  height: 70rpx;
+  width: 300rpx;
+  line-height: 70rpx;
+  background-color: white;
+  color: black;
+  font-size: 30rpx;
+  margin-top: 50rpx;
+}
+.hint-containor{
+  display: flex;
+  justify-content: center;
+  padding-top: 50rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+label{
+  font-size: 30rpx;
+  margin-left: 10rpx;
+}
+.icon-view{
+  height: 70rpx;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+icon{
+  margin-top: 14rpx;
+  margin-bottom: auto;
+  height: 70rpx;
+}

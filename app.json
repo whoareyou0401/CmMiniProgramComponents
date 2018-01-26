@@ -15,7 +15,9 @@
     "components/bindPhone/bindPhone",
     "pages/bindPhoneDemo/bindPhoneDemo",
     "components/rowCell/rowCell",
-    "pages/rowCellDemo/rowCellDemo"
+    "pages/rowCellDemo/rowCellDemo",
+    "components/cmToast/cmToast",
+    "pages/cmToastDemo/cmToastDemo"
   ],
   "window":{
     "backgroundTextStyle":"light",

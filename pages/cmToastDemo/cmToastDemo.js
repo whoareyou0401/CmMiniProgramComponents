@@ -1,24 +1,22 @@
-// pages/bindPhoneDemo/bindPhoneDemo.js
+// pages/cmToastDemo/cmToastDemo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    phone: '',
-    code: ''
+    is_show: false,
+    confirmText: '朕知道了',
+    title: '请输入密码',
   },
-  sendCode: function(e){
-    console.log('根据data.phone的数据提交请求', e)
-  },
-  inputCode: function(e){
+  click: function () {
     this.setData({
-      code: e.detail.value
+      is_show: true
     })
   },
-  inputPhone:function(e){
+  confirm: function () {
     this.setData({
-      phone:e.detail.value
+      is_show: false
     })
   },
   /**
@@ -27,9 +25,7 @@ Page({
   onLoad: function (options) {
   
   },
-  commit:function(e){
-    console.log('数据提交请求', e)
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
